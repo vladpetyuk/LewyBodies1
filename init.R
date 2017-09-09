@@ -21,7 +21,8 @@ options(repos = c(
 
 pkgs <- c("e1071", "doRNG", "caret", "BiocStyle", "RColorBrewer", "knitr",
 	"gplots", "randomForest", "Boruta", "doParallel", "foreach",
-	"iterators", "igraph", "reshape2", "digest", "ggbeeswarm")
+	"iterators", "igraph", "reshape2", "digest", "ggbeeswarm",
+	"clusterProfiler","FField")
 install.packages(pkgs)
 
 
