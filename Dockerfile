@@ -17,4 +17,5 @@ ADD init.R /tmp/
 RUN R -f /tmp/init.R
 
 # bumping up rstudio user to sudoer just in case
-RUN useradd -m rstudio --groups sudo
+# RUN useradd -m rstudio --groups sudo # failed
+RUN usermod -a -G sudo rstudio
