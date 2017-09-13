@@ -15,3 +15,6 @@ RUN R CMD INSTALL bnlearn_3.9.tar.gz
 # installing necessary R packages from init
 ADD init.R /tmp/
 RUN R -f /tmp/init.R
+
+# bumping up rstudio user to sudoer just in case
+adduser rstudio sudo
