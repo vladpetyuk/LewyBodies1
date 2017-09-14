@@ -5,7 +5,7 @@ FROM rocker/verse:3.3.2
 # this is necessary for installing mzR
 RUN apt-get update \
  && apt-get install -y --no-install-recommends  \
-    libnetcdf-dev
+    libnetcdf-dev \
  && apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 
 # later the installation of bnlearn will be moved to init.R
