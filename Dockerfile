@@ -1,6 +1,6 @@
  
 # parent Docker
-FROM rocker/verse:3.3.1
+FROM rocker/verse:3.3.2
 
 # this is necessary for installing mzR
 RUN apt-get update \

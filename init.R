@@ -22,7 +22,7 @@ options(repos = c(
 pkgs <- c("e1071", "doRNG", "caret", "BiocStyle", "RColorBrewer", "knitr",
 	"gplots", "randomForest", "Boruta", "doParallel", "foreach",
 	"iterators", "igraph", "reshape2", "digest", "ggbeeswarm",
-	"DOSE","GOSemSim","ReactomePA",
+	"GOSemSim","DOSE","ReactomePA",
 	"clusterProfiler","FField","org.Hs.eg.db")
 install.packages(pkgs)
 
