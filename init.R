@@ -32,7 +32,8 @@ library(devtools)
 # install_github("vladpetyuk/vp.misc", ref = "d4ce169eb1459a4951c3824187eb5480c1bbae72") # Nov 14, 2016
 install_github("vladpetyuk/vp.misc", ref = "c091e94743f9b5a381936f4fe705cfb1072e7970") # Aug 2, 2016
 
-# bump rmarkdown to 1.2
+# bump up knitr and rmarkdown
+install_version("knitr", version = "1.14", repos = "http://cran.us.r-project.org")
 install_version("rmarkdown", version = "1.2", repos = "http://cran.us.r-project.org")
 
 # bump BiocStyle
