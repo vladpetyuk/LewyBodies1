@@ -24,7 +24,8 @@ pkgs <- c("e1071", "doRNG", "caret", "BiocStyle", "RColorBrewer", "knitr",
 	"iterators", "igraph", "reshape2", "digest", "ggbeeswarm",
 	"GOSemSim","DOSE","ReactomePA", "RODBC",
 	"clusterProfiler","FField","org.Hs.eg.db",
-	"AnnotationDbi", "impute", "GO.db", "preprocessCore", "WGCNA")
+	"AnnotationDbi", "impute", "GO.db", "preprocessCore", "WGCNA",
+	"GOstats", "gelnet")
 
 install.packages(pkgs)
 
