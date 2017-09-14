@@ -5,8 +5,10 @@ FROM rocker/verse:3.3.2
 # this is necessary for installing mzR
 RUN apt-get update \
  && apt-get install -y --no-install-recommends  \
-    libnetcdf-dev \
- && apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
+    libnetcdf-dev
+
+# FreeTDS
+RUN apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 
 # later the installation of bnlearn will be moved to init.R
 RUN wget http://cran.r-project.org/src/contrib/Archive/bnlearn/bnlearn_3.9.tar.gz
