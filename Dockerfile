@@ -8,7 +8,7 @@ RUN apt-get update \
     libnetcdf-dev
 
 # FreeTDS
-RUN apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
+RUN apt-get install -y unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 
 # later the installation of bnlearn will be moved to init.R
 RUN wget http://cran.r-project.org/src/contrib/Archive/bnlearn/bnlearn_3.9.tar.gz
