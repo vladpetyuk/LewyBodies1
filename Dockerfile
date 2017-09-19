@@ -12,8 +12,8 @@ RUN apt-get install -y --no-install-recommends \
  unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 
 # later the installation of bnlearn will be moved to init.R
-RUN wget http://cran.r-project.org/src/contrib/Archive/bnlearn/bnlearn_3.9.tar.gz
-RUN R CMD INSTALL bnlearn_3.9.tar.gz
+# RUN wget http://cran.r-project.org/src/contrib/Archive/bnlearn/bnlearn_3.9.tar.gz
+# RUN R CMD INSTALL bnlearn_3.9.tar.gz
  
 
 # installing necessary R packages from init
