@@ -48,9 +48,10 @@ install_version("rmarkdown", version = "1.2", repos = "http://cran.us.r-project.
 
 # bump a few Bioconductor packages
 install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/BiocStyle_2.2.1.tar.gz")
+install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/AnnotationDbi_1.36.2.tar.gz")
 install_url("https://bioconductor.org/packages/3.4/data/annotation/src/contrib/GO.db_3.4.0.tar.gz")
 install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/clusterProfiler_3.2.14.tar.gz")
 install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/ReactomePA_1.18.1.tar.gz")
-
+install_url("https://bioconductor.org/packages/3.4/data/annotation/src/contrib/org.Hs.eg.db_3.4.0.tar.gz")
 
 
