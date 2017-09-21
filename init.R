@@ -11,10 +11,10 @@
 # trying earlier version
 options(repos = c(
     CRAN = "https://mran.revolutionanalytics.com/snapshot/2016-06-01/", # June 01, 2016
-    BioCsoft = "https://bioconductor.org/packages/3.2/bioc", 
-    BioCann = "https://bioconductor.org/packages/3.2/data/annotation",
-    BioCexp = "https://bioconductor.org/packages/3.2/data/experiment",
-    BioCextra = "https://bioconductor.org/packages/3.2/extra"
+    BioCsoft = "https://bioconductor.org/packages/3.4/bioc", 
+    BioCann = "https://bioconductor.org/packages/3.4/data/annotation",
+    BioCexp = "https://bioconductor.org/packages/3.4/data/experiment",
+    BioCextra = "https://bioconductor.org/packages/3.4/extra"
 ))
 
 
@@ -47,12 +47,12 @@ install_version("rmarkdown", version = "1.2", repos = "http://cran.us.r-project.
 # https://bioconductor.org/packages/3.4/bioc/src/contrib/ReactomePA_1.18.1.tar.gz
 
 # bump a few Bioconductor packages
-install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/BiocStyle_2.2.1.tar.gz")
-install_url("http://bioconductor.org/packages/3.4/bioc/src/contrib/S4Vectors_0.12.2.tar.gz")
-install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/AnnotationDbi_1.36.2.tar.gz")
-install_url("https://bioconductor.org/packages/3.4/data/annotation/src/contrib/GO.db_3.4.0.tar.gz")
-install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/clusterProfiler_3.2.14.tar.gz")
-install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/ReactomePA_1.18.1.tar.gz")
-install_url("https://bioconductor.org/packages/3.4/data/annotation/src/contrib/org.Hs.eg.db_3.4.0.tar.gz")
+# install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/BiocStyle_2.2.1.tar.gz")
+# install_url("http://bioconductor.org/packages/3.4/bioc/src/contrib/S4Vectors_0.12.2.tar.gz")
+# install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/AnnotationDbi_1.36.2.tar.gz")
+# install_url("https://bioconductor.org/packages/3.4/data/annotation/src/contrib/GO.db_3.4.0.tar.gz")
+# install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/clusterProfiler_3.2.14.tar.gz")
+# install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/ReactomePA_1.18.1.tar.gz")
+# install_url("https://bioconductor.org/packages/3.4/data/annotation/src/contrib/org.Hs.eg.db_3.4.0.tar.gz")
 install_url("http://bioconductor.org/packages/3.4/bioc/src/contrib/Rgraphviz_2.18.0.tar.gz")
 
