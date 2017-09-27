@@ -23,9 +23,9 @@ pkgs <- c("e1071", "doRNG", "caret", "BiocStyle", "RColorBrewer", "knitr",
 	"gplots", "randomForest", "Boruta", "doParallel", "foreach",
 	"iterators", "igraph", "reshape2", "digest", "ggbeeswarm",
 	"GOSemSim","DOSE","ReactomePA", "RODBC",
-	"clusterProfiler","FField","org.Hs.eg.db",
+	"clusterProfiler","FField","org.Hs.eg.db","org.Mm.eg.db",
 	"AnnotationDbi", "impute", "GO.db", "preprocessCore", "WGCNA",
-	"GOstats", "gelnet", "biomaRt","bnlearn")
+	"GOstats", "gelnet", "biomaRt","bnlearn","Rgraphviz")
 
 install.packages(pkgs)
 
@@ -54,5 +54,5 @@ install_version("rmarkdown", version = "1.2", repos = "http://cran.us.r-project.
 # install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/clusterProfiler_3.2.14.tar.gz")
 # install_url("https://bioconductor.org/packages/3.4/bioc/src/contrib/ReactomePA_1.18.1.tar.gz")
 # install_url("https://bioconductor.org/packages/3.4/data/annotation/src/contrib/org.Hs.eg.db_3.4.0.tar.gz")
-install_url("http://bioconductor.org/packages/3.4/bioc/src/contrib/Rgraphviz_2.18.0.tar.gz")
+# install_url("http://bioconductor.org/packages/3.4/bioc/src/contrib/Rgraphviz_2.18.0.tar.gz")
 
