@@ -11,6 +11,10 @@ RUN apt-get update \
 RUN apt-get install -y --no-install-recommends \
  unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 
+# CIFS for accessing files on Windows shares
+RUN apt-get install -y --no-install-recommends \
+  cifs-utils
+
 # later the installation of bnlearn will be moved to init.R
 # RUN wget http://cran.r-project.org/src/contrib/Archive/bnlearn/bnlearn_3.9.tar.gz
 # RUN R CMD INSTALL bnlearn_3.9.tar.gz
