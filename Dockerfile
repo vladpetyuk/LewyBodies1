@@ -2,10 +2,11 @@
 # parent Docker
 FROM rocker/verse:3.3.2
 
-# this is necessary for installing mzR
+# this is necessary for installing mzR and nloptr
 RUN apt-get update \
  && apt-get install -y --no-install-recommends  \
-    libnetcdf-dev
+    libnetcdf-dev \
+    libnlopt-dev # NLopt library
 
 # FreeTDS
 RUN apt-get install -y --no-install-recommends \
