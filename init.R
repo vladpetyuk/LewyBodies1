@@ -32,7 +32,8 @@ install.packages(pkgs)
 
 library(devtools)
 # vp.misc is needed for data ML analysis
-install_github("vladpetyuk/vp.misc", ref = "d4ce169eb1459a4951c3824187eb5480c1bbae72") # Nov 14, 2016
+install_github('vladpetyuk/vp.misc', ref='311fb45f8eccdb9820251ea64edc7f740494575a') # May 11, 2018
+# install_github("vladpetyuk/vp.misc", ref = "d4ce169eb1459a4951c3824187eb5480c1bbae72") # Nov 14, 2016
 # install_github("vladpetyuk/vp.misc", ref = "c091e94743f9b5a381936f4fe705cfb1072e7970") # Aug 2, 2016
 
 # bump up knitr and rmarkdown
